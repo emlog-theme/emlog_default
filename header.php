@@ -16,7 +16,7 @@ require_once View::getView('module');
 <meta name="keywords" content="<?php echo $site_key; ?>" />
 <meta name="description" content="<?php echo $site_description; ?>" />
 <meta name="generator" content="emlog" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
 <link rel="alternate" type="application/rss+xml" title="RSS"  href="<?php echo BLOG_URL; ?>rss.php" />
 <link href="<?php echo TEMPLATE_URL; ?>main.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo TEMPLATE_URL; ?>css/bootstrap.min.css" rel="stylesheet" type="text/css" />
